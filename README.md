@@ -19,10 +19,10 @@ The study is currently published on https://covidgilance.org web site (in french
 **keyword fr:** one or several keywords in french for GT  
 **keyword en:** one or several keywords in english for GT  
 **fr-topic-url-12M:** link to 12 months french query topic in GT in France   	
-**en-topic-url-12M:** link to 12 months english query topic in GT in US
+**en-topic-url-12M:** link to 12 months english query topic in GT in US  
 **fr-url-12M:** link to 12 months french queries in GT in France  
 **en-url-12M:** link to 12 months english queries topic in GT in US  
-**fr-topic-url-5M:** link to 5 months french query topic in GT in France 
+**fr-topic-url-5M:** link to 5 months french query topic in GT in France  
 **en-topic-url-5M:** link to 5 months english query topic in GT in US  
 **fr-url-5M:** link to 5 months french queries in GT in France   
 **en-url-5M:** link to 5 months english queries topic in GT in US   
