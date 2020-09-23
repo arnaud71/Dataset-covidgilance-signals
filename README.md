@@ -12,20 +12,20 @@ The study is currently published on https://covidgilance.org web site (in french
 **Name:** covid_signal_list.tsv  
 **Description:** contain the original relevant list of signals for covid19 (here list of queries where you can see, in GT, a relevant signal during the covid 19 period of time)    
 
-- **id:** unique id for the topic  
-- **topic-fr:** name of the topic in french  
+**id:** unique id for the topic  
+**topic-fr:** name of the topic in french  
 **topic-en:** name of the topic in english  
 **topic-id:** GT topic id  
 **keyword fr:** one or several keywords in french for GT  
 **keyword en:** one or several keywords in english for GT  
-**fr-topic-url-12M:**    	
-**en-topic-url-12M:**  
-**fr-url-12M:**  
-**en-url-12M:**  
-**fr-topic-url-5M:**  
-**en-topic-url-5M:**  
-**fr-url-5M:**  
-**en-url-5M:**  
+**fr-topic-url-12M:** link to 12 months french query topic in GT in France   	
+**en-topic-url-12M:** link to 12 months english query topic in GT in US
+**fr-url-12M:** link to 12 months french queries in GT in France  
+**en-url-12M:** link to 12 months english queries topic in GT in US  
+**fr-topic-url-5M:** link to 5 months french query topic in GT in France 
+**en-topic-url-5M:** link to 5 months english query topic in GT in US  
+**fr-url-5M:** link to 5 months french queries in GT in France   
+**en-url-5M:** link to 5 months english queries topic in GT in US   
 
 
 ### aggregate_serp.pl
