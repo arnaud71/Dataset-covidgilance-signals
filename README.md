@@ -7,7 +7,7 @@ The study is currently published on https://covidgilance.org web site (in french
 
 ## Dataset description
 
-### original lists of signals (mainly covid symptoms) - dataset
+## Original lists of signals (mainly covid symptoms) - dataset
 
 *Name : covid_signal_list.tsv*
 
