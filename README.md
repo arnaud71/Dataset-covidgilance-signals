@@ -57,10 +57,10 @@ perl aggregate_serp.pl> aggregated_signals_20_en.csv
 
 **Description** a aggregated version of the SERP where each line is a website and each column a query  
 **Names:**  
-aggregated_signals_20_ch_fr.csv
-aggregated_signals_20_en.csv
-aggregated_signals_covid_20_ch_fr.csv
-aggregated_signals_covid_20_en.csv
+aggregated_signals_20_ch_fr.csv  
+aggregated_signals_20_en.csv  
+aggregated_signals_covid_20_ch_fr.csv  
+aggregated_signals_covid_20_en.csv  
 
 ### datasets ranked top seo - dataset
 
@@ -68,10 +68,10 @@ aggregated_signals_covid_20_en.csv
 TOP 20 have more information about the type and HONcode validity (from the date of collect: september 2020) 
 
 **Names:**  
-ranked_signals_20_ch_fr.csv 
-ranked_signals_20_en.csv  
-ranked_signals_covid_20_ch_fr.csv  
-ranked_signals_covid_20_en.csv  
+ranked_signals_20_ch_fr.csv  
+ranked_signals_20_en.csv   
+ranked_signals_covid_20_ch_fr.csv   
+ranked_signals_covid_20_en.csv   
 
 **domain** domain name of the web site 
 **signal 1** Position of the query 1 (signal 1) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
