@@ -5,18 +5,18 @@ research datasets about top signals for covid 19 (coronavirus) for study into  g
 
 The study is currently published on https://covidgilance.org web site (in french)
 
-## Dataset description
+## Datasets description
 
 ### Original lists of signals (mainly covid symptoms) - dataset
 
-**Description:** contain the original relevant list of signals for covid19 (here list of queries where you can see, in GT, a relevant signal during the covid 19 period of time)
+**Description:** contain the original relevant list of signals for covid19 (here list of queries where you can see, in GT, a relevant signal during the covid 19 period of time)  
 **Name:** covid_signal_list.tsv  
     
 **list of content**    
     
-**id:** unique id for the topic  
-**topic-fr:** name of the topic in french  
-**topic-en:** name of the topic in english  
+**-id:** unique id for the topic  
+**-topic-fr:** name of the topic in french  
+**-topic-en:** name of the topic in english  
 **topic-id:** GT topic id  
 **keyword fr:** one or several keywords in french for GT  
 **keyword en:** one or several keywords in english for GT  
