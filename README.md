@@ -67,9 +67,9 @@ aggregated_signals_covid_20_en.csv
 
 **list of content** 
 
-**domain** domain name of the web site 
+**domain** domain name of the web site  
 **signal 1** Position of the query 1 (signal 1) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
-** ... ** Position of the query (signal) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
+**signal ... ** Position of the query (signal) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
 **signal n** Position of the query n (signal n) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
 **total** average position (total of all position /divided by number of queries)  
 **missing** Total number of missing results in the SERP for this website  
@@ -88,9 +88,9 @@ ranked_signals_covid_20_en.csv
 
 **list of content** 
 
-**domain** domain name of the web site 
+**domain** domain name of the web site  
 **signal 1** Position of the query 1 (signal 1) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
-** ... ** Position of the query (signal) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
+**signal ... ** Position of the query (signal) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
 **signal n** Position of the query n (signal n) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
 **avg position**	average position (total of all position /divided by number of queries)  
 **nb missing** Total number of missing results in the SERP for this website  
