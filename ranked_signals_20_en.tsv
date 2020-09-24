@@ -1,24 +1,24 @@
-domain	ageusia	anosmia	chest pain	cough	coughing	diarrea	difficulty breathing	dsypnea	fever	loss smell	loss taste	rhinorrhea	running nose	runny nose	shortness of breath	sore throat	throat pain	total	missing	top 20 % present	weighted avg rank	honcode	type
+domain	ageusia	anosmia	chest pain	cough	coughing	diarrea	difficulty breathing	dsypnea	fever	loss smell	loss taste	rhinorrhea	running nose	runny nose	shortness of breath	sore throat	throat pain	avg position	nb missing	% presence	weighted avg position	honcode	type
 www.healthline.com	30	2	7	2	1	7	1	1	9	11	2	4	3	7	3	2	2	5.5	1	94%	7.0	valid	health
 www.mayoclinic.org	30	4	2	1	11	2	9	3	1	20	5	7	1	1	1	1	1	5.9	1	94%	7.3	valid	health
 www.webmd.com	30	1	1	6	7	4	6	2	6	3	4	30	4	4	11	6	8	7.8	2	88%	10.4	valid	health
 medlineplus.gov	10	30	10	7	9	1	7	30	10	30	30	18	13	13	12	11	21	15.4	4	76%	18.8	expired	health/gov
 www.medicinenet.com	9	30	9	10	10	30	3	30	8	30	3	16	12	11	10	30	30	16.5	6	65%	21.3	valid	health
 www.medicalnewstoday.com	30	30	3	13	5	30	8	7	7	30	16	30	18	18	30	14	30	18.8	7	59%	23.4	expired	health
-www.cdc.gov	30	11	30	18	19	30	30	30	5	30	8	30	19	16	30	9	4	20.5	8	53%	25.0	non	health/gov
+www.cdc.gov	30	11	30	18	19	30	30	30	5	30	8	30	19	16	30	9	4	20.5	8	53%	25.0	none	health/gov
 www.ncbi.nlm.nih.gov	2	10	30	30	30	30	30	6	4	6	7	5	30	30	30	30	30	20.0	10	41%	25.9	expired	health/gov
-www.health.harvard.edu	30	30	8	8	8	30	30	30	22	30	30	30	30	30	6	4	6	21.3	10	41%	26.4	non	health/edu
-www.nhs.uk	30	5	30	19	18	30	20	30	30	10	17	30	30	30	15	30	10	22.6	9	47%	26.5	non	health/gov
-en.wikipedia.org	1	6	30	15	30	11	30	11	21	30	30	1	30	30	30	30	30	21.5	10	41%	26.5	non	dict
+www.health.harvard.edu	30	30	8	8	8	30	30	30	22	30	30	30	30	30	6	4	6	21.3	10	41%	26.4	none	health/edu
+www.nhs.uk	30	5	30	19	18	30	20	30	30	10	17	30	30	30	15	30	10	22.6	9	47%	26.5	none	health/gov
+en.wikipedia.org	1	6	30	15	30	11	30	11	21	30	30	1	30	30	30	30	30	21.5	10	41%	26.5	none	dict
 my.clevelandclinic.org	30	30	4	30	30	30	30	9	13	30	30	2	16	17	30	30	30	23.0	11	35%	27.5	expired	health
 kidshealth.org	30	30	30	12	13	12	30	30	11	30	30	30	30	30	30	12	15	23.8	11	35%	27.8	expired	health
-www.hopkinsmedicine.org	8	21	30	30	30	30	4	30	30	30	24	30	30	30	17	30	30	25.5	12	29%	28.7	non	health
+www.hopkinsmedicine.org	8	21	30	30	30	30	4	30	30	30	24	30	30	30	17	30	30	25.5	12	29%	28.7	none	health
 www.who.int	30	30	30	30	30	19	30	30	30	30	30	30	6	2	30	5	30	24.8	13	24%	28.8	expired	health/gov
-www.mountsinai.org	30	30	30	30	30	30	11	30	30	30	30	30	22	20	30	15	14	26.0	12	29%	28.8	non	health
-www.lung.org	30	30	30	11	15	30	16	30	30	30	30	30	30	30	5	30	30	25.7	13	24%	29.0	non	health
-www.nhsinform.scot	30	30	13	16	3	30	30	30	30	30	30	30	30	30	30	30	19	25.9	13	24%	29.0	non	health
+www.mountsinai.org	30	30	30	30	30	30	11	30	30	30	30	30	22	20	30	15	14	26.0	12	29%	28.8	none	health
+www.lung.org	30	30	30	11	15	30	16	30	30	30	30	30	30	30	5	30	30	25.7	13	24%	29.0	none	health
+www.nhsinform.scot	30	30	13	16	3	30	30	30	30	30	30	30	30	30	30	30	19	25.9	13	24%	29.0	none	health
 www.merckmanuals.com	30	30	18	30	30	30	30	13	30	22	30	9	30	30	30	30	30	26.6	13	24%	29.2	valid	health
-www.urmc.rochester.edu	30	30	30	30	30	30	30	4	30	30	30	30	7	3	30	30	30	25.5	14	18%	29.2	non	health/edu
+www.urmc.rochester.edu	30	30	30	30	30	30	30	4	30	30	30	30	7	3	30	30	30	25.5	14	18%	29.2	none	health/edu
 www.beckershospitalreview.com	30	8	30	30	30	30	30	30	30	8	9	30	30	30	30	30	30	26.2	14	18%	29.3		
 vicks.com	30	30	30	30	30	30	30	30	16	30	30	30	5	10	30	30	30	26.5	14	18%	29.4		
 www.youtube.com	20	30	30	20	30	30	30	16	20	30	30	30	30	30	30	30	30	27.4	13	24%	29.4		
