@@ -12,6 +12,8 @@ The study is currently published on https://covidgilance.org web site (in french
 **Description:** contain the original relevant list of signals for covid19 (here list of queries where you can see, in GT, a relevant signal during the covid 19 period of time)
 **Name:** covid_signal_list.tsv  
     
+**list of content**    
+    
 **id:** unique id for the topic  
 **topic-fr:** name of the topic in french  
 **topic-en:** name of the topic in english  
@@ -63,7 +65,14 @@ aggregated_signals_20_en.csv
 aggregated_signals_covid_20_ch_fr.csv  
 aggregated_signals_covid_20_en.csv  
 
+**list of content** 
 
+**domain** domain name of the web site 
+**signal 1** Position of the query 1 (signal 1) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
+** ... ** Position of the query (signal) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
+**signal n** Position of the query n (signal n) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
+**total** average position (total of all position /divided by number of queries)  
+**missing** Total number of missing results in the SERP for this website  
 
 
 ### datasets ranked top seo - dataset
@@ -76,6 +85,8 @@ ranked_signals_20_ch_fr.csv
 ranked_signals_20_en.csv   
 ranked_signals_covid_20_ch_fr.csv   
 ranked_signals_covid_20_en.csv   
+
+**list of content** 
 
 **domain** domain name of the web site 
 **signal 1** Position of the query 1 (signal 1) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
