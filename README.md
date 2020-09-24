@@ -1,5 +1,5 @@
 # Dataset-covidgilance-signals
-research datasets about top signals for covid 19 (coronavirus) for study into  google trends (GT) and with seo metrics
+Research datasets about top signals for covid 19 (coronavirus) for study into  google trends (GT) and with seo metrics
 
 ## Website
 
@@ -7,7 +7,7 @@ The study is currently published on https://covidgilance.org web site (in french
 
 ## Datasets description
 
-covid signals -> |selection| -> 4 dataset -> |serp.py| -> 4 serp datasets -> |aggregate_serp.pl| -> 4 aggregated dataset of serp -> |prepare datasets| -> 4 ranked top seo dataset 
+`covid signals -> |selection| -> 4 dataset -> |serp.py| -> 4 serp datasets -> |aggregate_serp.pl| -> 4 aggregated dataset of serp -> |prepare datasets| -> 4 ranked top seo dataset` 
 
 ### Original lists of signals (mainly covid symptoms) - dataset
 
