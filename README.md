@@ -9,9 +9,9 @@ The study is currently published on https://covidgilance.org web site (in french
 
 ### Original lists of signals (mainly covid symptoms) - dataset
 
+**Description:** contain the original relevant list of signals for covid19 (here list of queries where you can see, in GT, a relevant signal during the covid 19 period of time)
 **Name:** covid_signal_list.tsv  
-**Description:** contain the original relevant list of signals for covid19 (here list of queries where you can see, in GT, a relevant signal during the covid 19 period of time)    
-
+    
 **id:** unique id for the topic  
 **topic-fr:** name of the topic in french  
 **topic-en:** name of the topic in english  
@@ -27,30 +27,62 @@ The study is currently published on https://covidgilance.org web site (in french
 **fr-url-5M:** link to 5 months french queries in GT in France   
 **en-url-5M:** link to 5 months english queries topic in GT in US   
 
+### Tool to get SERP of covid signals - tool 
 
-### aggregate_serp.pl
+**Description:** query google with a list of covid signals and obtain a list of serps in csv (tsv in fact) file format  
+**Name:** serper.py  
+
+python serper.py
+
+### SERP files - datasets
 
 
+**Description** Serp results for 4 dateset of queries
+**Names:**
+simple version of covid signals from google.ch in french: serp_signals_20_ch_fr.csv  
+simple version of covid signals from google.com in french: serp_signals_20_en.csv
+serp_signals_covid_20_ch_fr.csv
+serp_signals_covid_20_en.csv
 
+
+### Tool to aggregate SERP results - tool
+
+**Description:** load csv serp data and aggregate the data to create a new csv file where each line is a website and each column is a query.
+**Name:**   aggregate_serp.pl
+
+perl aggregate_serp.pl> aggregated_signals_20_en.csv
+
+
+### datasets of top website from the SERP results - dataset
+
+**Description** a aggregated version of the SERP where each line is a website and each column a query  
+**Names:**  
 aggregated_signals_20_ch_fr.csv
 aggregated_signals_20_en.csv
 aggregated_signals_covid_20_ch_fr.csv
 aggregated_signals_covid_20_en.csv
 
+### datasets ranked top seo - dataset
 
+**Description** a ranked (by weighted average position) version of the aggregated version of the SERP where each line is a website and each column a query.
+TOP 20 have more information about the type and HONcode validity (from the date of collect: september 2020)  
+**Names:**  
+ranked_signals_20_ch_fr.csv
+ranked_signals_20_en.csv
+ranked_signals_covid_20_ch_fr.csv
+ranked_signals_covid_20_en.csv
 
-serp_signals_20_ch_fr.csv
+**domain** domain name of the web site 
+**signal 1** Position of the query 1 (signal 1) in the SERP where 30 indicates arbitrary that this website is not present in the SERP 
+** ... *** Position of the query (signal) in the SERP where 30 indicates arbitrary that this website is not present in the SERP
+**signal n** Position of the query n (signal n) in the SERP where 30 indicates arbitrary that this website is not present in the SERP
+**total**	average position (total of all position /divided by number of queries) 
+**missing	top 20** Total number of missing results in the SERP for this website 
+**% present** % of presence 
+**weighted avg rank** combination of avg position and % of presence for final ranking
+**honcode** satus of the Honcode for this website (
+**type**
 
-serp_signals_20_en.csv
-
-serp_signals_covid_20_ch_fr.csv
-
-serp_signals_covid_20_en.csv
-
-serper.py
-
-
-Dataset-covidgilance-signals
 
 
 
