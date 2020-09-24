@@ -40,10 +40,11 @@ python serper.py
 **Description** Serp results for 4 dateset of queries
 **Names:**
 simple version of covid signals from google.ch in french: serp_signals_20_ch_fr.csv  
-simple version of covid signals from google.com in french: serp_signals_20_en.csv
-serp_signals_covid_20_ch_fr.csv
-serp_signals_covid_20_en.csv
+simple version of covid signals from google.com in english: serp_signals_20_en.csv  
+amplified version of covid signals from google.ch: serp_signals_covid_20_ch_fr.csv  
+amplified version of covid signals from google.com in english: serp_signals_covid_20_en.csv  
 
+amplified version means that for each query we create two queries one with the keywords "covid" and one with "coronavirus"
 
 ### Tool to aggregate SERP results - tool
 
@@ -62,6 +63,9 @@ aggregated_signals_20_en.csv
 aggregated_signals_covid_20_ch_fr.csv  
 aggregated_signals_covid_20_en.csv  
 
+
+
+
 ### datasets ranked top seo - dataset
 
 **Description** a ranked (by weighted average position) version of the aggregated version of the SERP where each line is a website and each column a query.
@@ -75,7 +79,7 @@ ranked_signals_covid_20_en.csv
 
 **domain** domain name of the web site 
 **signal 1** Position of the query 1 (signal 1) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
-** ... *** Position of the query (signal) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
+** ... ** Position of the query (signal) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
 **signal n** Position of the query n (signal n) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
 **avg position**	average position (total of all position /divided by number of queries)  
 **nb missing** Total number of missing results in the SERP for this website  
