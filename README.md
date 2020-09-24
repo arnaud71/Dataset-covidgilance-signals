@@ -65,23 +65,24 @@ aggregated_signals_covid_20_en.csv
 ### datasets ranked top seo - dataset
 
 **Description** a ranked (by weighted average position) version of the aggregated version of the SERP where each line is a website and each column a query.
-TOP 20 have more information about the type and HONcode validity (from the date of collect: september 2020)  
+TOP 20 have more information about the type and HONcode validity (from the date of collect: september 2020) 
+
 **Names:**  
-ranked_signals_20_ch_fr.csv
-ranked_signals_20_en.csv
-ranked_signals_covid_20_ch_fr.csv
-ranked_signals_covid_20_en.csv
+ranked_signals_20_ch_fr.csv 
+ranked_signals_20_en.csv  
+ranked_signals_covid_20_ch_fr.csv  
+ranked_signals_covid_20_en.csv  
 
 **domain** domain name of the web site 
-**signal 1** Position of the query 1 (signal 1) in the SERP where 30 indicates arbitrary that this website is not present in the SERP 
-** ... *** Position of the query (signal) in the SERP where 30 indicates arbitrary that this website is not present in the SERP
-**signal n** Position of the query n (signal n) in the SERP where 30 indicates arbitrary that this website is not present in the SERP
-**total**	average position (total of all position /divided by number of queries) 
-**missing	top 20** Total number of missing results in the SERP for this website 
-**% present** % of presence 
-**weighted avg rank** combination of avg position and % of presence for final ranking
-**honcode** satus of the Honcode for this website (
-**type**
+**signal 1** Position of the query 1 (signal 1) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
+** ... *** Position of the query (signal) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
+**signal n** Position of the query n (signal n) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
+**avg position**	average position (total of all position /divided by number of queries)  
+**nb missing** Total number of missing results in the SERP for this website  
+**% presence** % of presence  
+**weighted avg postion** combination of avg position and % of presence for final ranking  
+**honcode** status of the Honcode certificate for this website (none/valid/expired)  
+**type** type of the website (health, gov, edu or media)  
 
 
 
