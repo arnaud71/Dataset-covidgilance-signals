@@ -7,6 +7,8 @@ The study is currently published on https://covidgilance.org web site (in french
 
 ## Datasets description
 
+covid signals -> |selection| -> 4 dataset -> |serp.py| -> 4 serp datasets -> |aggregate_serp.pl| -> 4 aggregated dataset of serp -> |prepare datasets| -> 4 ranked top seo dataset 
+
 ### Original lists of signals (mainly covid symptoms) - dataset
 
 **Description:** contain the original relevant list of signals for covid19 (here list of queries where you can see, in GT, a relevant signal during the covid 19 period of time)  
@@ -67,12 +69,12 @@ aggregated_signals_covid_20_en.csv
 
 **List of content:** 
 
-**- domain** domain name of the web site  
-**- signal 1** Position of the query 1 (signal 1) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
-**- signal ...** Position of the query (signal) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
-**- signal n** Position of the query n (signal n) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
-**- total** average position (total of all position /divided by number of queries)  
-**- missing** Total number of missing results in the SERP for this website  
+**- domain:** domain name of the web site  
+**- signal 1:** Position of the query 1 (signal 1) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
+**- signal ...:** Position of the query (signal) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
+**- signal n:** Position of the query n (signal n) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
+**- total:** average position (total of all position /divided by number of queries)  
+**- missing:** Total number of missing results in the SERP for this website  
 
 
 ### datasets ranked top seo - dataset
@@ -88,16 +90,16 @@ ranked_signals_covid_20_en.csv
 
 **List of content:** 
 
-**- domain** domain name of the web site  
-**- signal 1** Position of the query 1 (signal 1) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
-**- signal ...** Position of the query (signal) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
-**- signal n** Position of the query n (signal n) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
-**- avg position**	average position (total of all position /divided by number of queries)  
-**- nb missing** Total number of missing results in the SERP for this website  
-**- % presence** % of presence  
-**- weighted avg postion** combination of avg position and % of presence for final ranking  
-**- honcode** status of the Honcode certificate for this website (none/valid/expired)  
-**- type** type of the website (health, gov, edu or media)  
+**- domain:** domain name of the web site  
+**- signal 1:** Position of the query 1 (signal 1) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
+**- signal ...:** Position of the query (signal) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
+**- signal n:** Position of the query n (signal n) in the SERP where 30 indicates arbitrary that this website is not present in the SERP  
+**- avg position:**	average position (total of all position /divided by number of queries)  
+**- nb missing:** Total number of missing results in the SERP for this website  
+**- % presence:** % of presence  
+**- weighted avg postion:** combination of avg position and % of presence for final ranking  
+**- honcode:** status of the Honcode certificate for this website (none/valid/expired)  
+**- type:** type of the website (health, gov, edu or media)  
 
 
 
