@@ -36,7 +36,7 @@ The study is currently published on https://covidgilance.org web site (in french
 **Description:** query google with a list of covid signals and obtain a list of serps in csv (tsv in fact) file format  
 **Name:** serper.py  
 
-python serper.py
+`python serper.py`
 
 ### SERP files - datasets
 
@@ -55,7 +55,7 @@ amplified version means that for each query we create two queries one with the k
 **Description:** load csv serp data and aggregate the data to create a new csv file where each line is a website and each column is a query.
 **Name:**   aggregate_serp.pl
 
-perl aggregate_serp.pl> aggregated_signals_20_en.csv
+`perl aggregate_serp.pl> aggregated_signals_20_en.csv
 
 
 ### datasets of top website from the SERP results - dataset
